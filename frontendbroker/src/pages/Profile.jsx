@@ -26,7 +26,7 @@ const Profile = () => {
       const resData = await res.json();
       Cookies.remove('access_token');
 
-      navigate("/signin");
+      navigate("/signIn");
       localStorage.clear();
       window.location.reload();
 
