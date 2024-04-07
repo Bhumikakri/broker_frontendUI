@@ -35,7 +35,7 @@ function App() {
           element: <Properties />
         },
         {
-          path: "/listing",
+          path: "/listing/:id",
           element: <Listing />
         },
         {

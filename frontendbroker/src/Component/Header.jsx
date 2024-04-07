@@ -46,7 +46,7 @@ const Header = () => {
       <div className=' text-base font-semibold hidden lg:flex gap-10 text-white'>
         <Link to="/">HOME</Link>
         <Link to="/about">ABOUT US</Link>
-        <Link to="/listing">LISTINGS</Link>
+        <Link to="/listing/All">LISTINGS</Link>
         <Link to='/contact'>CONTACT</Link>
       </div>
       <div className=' text-base font-semibold  hidden lg:flex items-center gap-11 text-white'>
@@ -61,7 +61,7 @@ const Header = () => {
         iconClick ? <div className=' lg:hidden flex gap-3 flex-col absolute top-24 left-0 bg-white w-full h-fit text-black'>
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT US</Link>
-          <Link to="/listing">LISTINGS</Link>
+          <Link to="/listing/%adfg34234567890">LISTINGS</Link>
           <Link to='/contact'>CONTACT</Link>
           <Link to='/profile'>PROFILE</Link>
         </div> : ''
